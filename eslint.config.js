@@ -10,3 +10,12 @@ export default [
     ...js.configs.recommended,
   },
 ];
+
+import prettierConfig from 'eslint-config-prettier';
+
+export default [
+  {
+    // ESLint reeglid
+  },
+  prettierConfig, // peab olema viimane!
+];
